@@ -7,10 +7,16 @@ namespace APIsAndJSON
     {
         static void Main(string[] args)
         {
-            RonVSKanyeAPI.Kanye();
+                 
+            for (int i = 0; i < 5; i++)
+            {
+                //RonVSKanyeAPI.Kanye();
 
-            RonVSKanyeAPI.Ron();
-           
+                //RonVSKanyeAPI.Ron();
+
+            }
+            OpenWeatherMapAPI.GetTemp();
+
         }
         
     }
